@@ -14,8 +14,8 @@ public class Server implements Calculadora {
     public float multiplica(float x, float y) {return x * y;}
 
     public static void main(String args[]) {
-        String address = "10.16.1.179";
-        int port = 10101;
+        String address = "10.16.4.52";
+        int port = 1099;
 
         try {
             Server obj = new Server();
